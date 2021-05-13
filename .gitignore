@@ -1,0 +1,22 @@
+# Checkpoints e arquivos do Jupyter
+.ipynb_checkpoints/
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+
+# Ambiente virtual
+.env/
+venv/
+*.egg-info/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log e dumps
+*.log
+*.csv
+*.tsv
+*.xlsx
+*.db
