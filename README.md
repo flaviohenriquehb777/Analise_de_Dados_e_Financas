@@ -2,12 +2,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 
-**Projeto de consultoria para a empresa Wizard Idiomas, focando na análise de dados financeiros e de funcionários para otimizar operações e fornecer insights estratégicos.**
+**Modelo de consultoria para a empresa Wizard Idiomas, focando na análise de dados financeiros e de funcionários para otimizar operações e fornecer insights estratégicos.**
 
 ## Sumário
-- [Visão Geral do Projeto](#visão-geral-do-projeto)
+- [Visão Geral do Modelo](#visão-geral-do-modelo)
 - [Objetivos de Negócio](#objetivos-de-negócio)
-- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Estrutura do Modelo](#estrutura-do-modelo)
 - [Bases de Dados](#bases-de-dados)
 - [Metodologia de Análise](#metodologia-de-análise)
 - [Resultados Chave e Insights](#resultados-chave-e-insights)
@@ -16,13 +16,13 @@
 - [Licença](#licença)
 - [Contato](#contato)
 
-## Visão Geral do Projeto:
+## Visão Geral do Modelo
 
-Este projeto atua como uma consultoria de dados para a empresa Wizard Idiomas, utilizando Python e Pandas para analisar dados de funcionários, clientes e serviços prestados. O objetivo principal é transformar dados brutos em informações estratégicas e financeiras, respondendo a questões cruciais para a gestão.
+Este modelo atua como uma consultoria de dados para a empresa Wizard Idiomas, utilizando Python e Pandas para analisar dados de funcionários, clientes e serviços prestados. O objetivo principal é transformar dados brutos em informações estratégicas e financeiras, respondendo a questões cruciais para a gestão.
 
-## Objetivos de Negócio:
+## Objetivos de Negócio
 
-O projeto foi desenvolvido para responder às seguintes questões de negócio:
+O modelo foi desenvolvido para responder às seguintes questões de negócio:
 
 1.  **Folha Salarial Total:** Qual foi o gasto total da empresa com salários de funcionários?
 2.  **Faturamento da Empresa:** Qual foi o faturamento total da empresa, detalhando por tipo de serviço?
@@ -31,23 +31,23 @@ O projeto foi desenvolvido para responder às seguintes questões de negócio:
 5.  **Funcionários por Área:** Quantos funcionários trabalham em cada área da empresa?
 6.  **Ticket Médio Mensal:** Qual é o valor do ticket médio dos contratos mensais com os clientes?
 
-## Estrutura do Projeto:
+## Estrutura do Modelo
 
 O repositório está organizado de forma clara para facilitar a navegação e o entendimento:
 
--   `dados/`: Contém as bases de dados utilizadas no projeto.
+-   `dados/`: Contém as bases de dados utilizadas no modelo.
     -   `CadastroClientes.csv`: Informações sobre os clientes.
     -   `CadastroFuncionarios.csv`: Informações sobre os funcionários.
     -   `BaseServiçosPrestados.xlsx`: Detalhes dos serviços prestados e contratos.
 -   `notebooks/`: Contém os notebooks Jupyter com a análise detalhada.
     -   `18.13 Mini Projeto Pandas_atualizado.ipynb`: O notebook principal que executa todas as análises e cálculos.
--   `README.md`: Este arquivo, fornecendo uma visão geral e documentação do projeto.
--   `LICENSE.md`: Arquivo contendo os termos da licença do projeto (Licença MIT).
--   `requirements.txt`: Lista de todas as bibliotecas Python e suas versões necessárias para executar o projeto.
+-   `README.md`: Este arquivo, fornecendo uma visão geral e documentação do modelo.
+-   `LICENSE.md`: Arquivo contendo os termos da licença do modelo (Licença MIT).
+-   `requirements.txt`: Lista de todas as bibliotecas Python e suas versões necessárias para executar o modelo.
 
-## Bases de Dados:
+## Bases de Dados
 
-O projeto utiliza três arquivos principais localizados na pasta `dados/`:
+O modelo utiliza três arquivos principais localizados na pasta `dados/`:
 
 * **`CadastroClientes.csv`**: Contém dados dos clientes, incluindo o 'Valor Contrato Mensal'.
 * **`CadastroFuncionarios.csv`**: Contém dados dos funcionários, incluindo 'Salario' e 'Area'.
@@ -55,7 +55,7 @@ O projeto utiliza três arquivos principais localizados na pasta `dados/`:
 
 As bases de dados foram carregadas, inspecionadas e, quando necessário, passaram por processos de limpeza e padronização (como tratamento de valores nulos e correção de tipos de dados) para garantir a integridade e a qualidade da análise.
 
-## Metodologia de Análise:
+## Metodologia de Análise
 
 A análise foi conduzida através das seguintes etapas no notebook `18.13 Mini Projeto Pandas_atualizado.ipynb`:
 
@@ -69,7 +69,7 @@ A análise foi conduzida através das seguintes etapas no notebook `18.13 Mini P
     * **Ticket Médio:** Cálculo da média dos valores dos contratos mensais dos clientes.
 3.  **Visualização de Dados:** Geração de gráficos para ilustrar a distribuição de funcionários por área.
 
-## Resultados Chave e Insights:
+## Resultados Chave e Insights
 
 Os principais resultados e insights obtidos incluem:
 
@@ -81,16 +81,16 @@ Os principais resultados e insights obtidos incluem:
 
 Todos os resultados numéricos detalhados e gráficos podem ser encontrados na seção de resultados do notebook.
 
-## Tecnologias Utilizadas:
+## Tecnologias Utilizadas
 
 * **Python:** Linguagem de programação principal.
 * **Pandas:** Essencial para manipulação, limpeza e análise de dados tabulares.
 * **NumPy:** Para operações numéricas eficientes.
 * **Matplotlib:** Para criação de gráficos, especialmente para visualização da distribuição de funcionários por área.
 
-## Instalação e Uso:
+## Instalação e Uso
 
-Para configurar e executar este projeto em seu ambiente local, siga as instruções abaixo:
+Para configurar e executar este modelo em seu ambiente local, siga as instruções abaixo:
 
 1.  **Pré-requisitos:**
     * Python 3.8+
@@ -99,40 +99,33 @@ Para configurar e executar este projeto em seu ambiente local, siga as instruç�
 
 2.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/Projeto_2_Mini_Projeto_de_Analise_de_Dados_Financas.git](https://github.com/seu-usuario/Projeto_2_Mini_Projeto_de_Analise_de_Dados_Financas.git)
-    cd Projeto_2_Mini_Projeto_de_Analise_de_Dados_Financas
+    git clone https://github.com/seu-usuario/Analise_de_Dados_e_Financas.git
+    cd Analise_de_Dados_e_Financas
     ```
     *(Lembre-se de substituir `seu-usuario` pelo seu nome de usuário do GitHub.)*
 
-3.  **Crie o arquivo `requirements.txt`:**
-    * Certifique-se de que está na raiz do projeto e que todas as bibliotecas usadas nos notebooks estão instaladas no seu ambiente Python.
-    * **No PowerShell (Windows) no Terminal do Jupyter Lab:**
-        ```powershell
-        pip freeze | Out-File -FilePath requirements.txt -Encoding UTF8
-        ```
-    * **No Linux/macOS (ou Git Bash no Windows) no Terminal do Jupyter Lab:**
-        ```bash
-        pip freeze > requirements.txt
-        ```
+3.  **(Opcional) Crie um ambiente virtual:**
+    ```bash
+    python -m venv .venv
+    ```
 
 4.  **Instale as dependências:**
-    * Com o `requirements.txt` criado, instale todas as bibliotecas necessárias:
-        ```bash
-        pip install -r requirements.txt
-        ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 5.  **Acesse e Execute o Notebook:**
-    * Inicie o Jupyter Lab na raiz do projeto:
+    * Inicie o Jupyter Lab na raiz do modelo:
         ```bash
         jupyter lab
         ```
     * Navegue até a pasta `notebooks/` e abra o notebook `18.13 Mini Projeto Pandas_atualizado.ipynb` para reproduzir a análise e os resultados.
 
-## Licença:
+## Licença
 
-Este projeto está licenciado sob a Licença MIT. Para mais detalhes, consulte o arquivo [LICENSE.md](LICENSE.md) na raiz do repositório.
+Este modelo está licenciado sob a Licença MIT. Para mais detalhes, consulte o arquivo [LICENSE.md](LICENSE.md) na raiz do repositório.
 
-## Contato:
+## Contato
 
 Se tiver alguma dúvida, sugestão ou quiser colaborar, sinta-se à vontade para entrar em contato:
 -   **Nome:** Flávio Henrique Barbosa
