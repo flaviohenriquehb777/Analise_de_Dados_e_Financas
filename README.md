@@ -15,6 +15,7 @@
 - [Instalação e Uso](#instalação-e-uso)
 - [Licença](#licença)
 - [Contato](#contato)
+- [Changelog](#changelog)
 
 ## Visão Geral do Modelo
 
@@ -131,3 +132,7 @@ Se tiver alguma dúvida, sugestão ou quiser colaborar, sinta-se à vontade para
 -   **Nome:** Flávio Henrique Barbosa
 -   **LinkedIn:** [Flávio Henrique Barbosa | LinkedIn](https://www.linkedin.com/in/fl%C3%A1vio-henrique-barbosa-38465938)
 -   **Email:** flaviohenriquehb777@outlook.com
+
+## Changelog
+
+Consulte o histórico de alterações em [CHANGELOG.md](CHANGELOG.md). As releases públicas também estão disponíveis na aba [Releases](https://github.com/flaviohenriquehb777/Analise_de_Dados_e_Financas/releases).
